@@ -1,0 +1,20 @@
+h1{
+    font-family: "sans-serif";
+    font-size: 50px;
+    margin-bottom: 0;
+    position: sticky;
+    z-index: 999;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 100px;
+    position: sticky;
+    z-index: 999;
+}
+.sticky{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}

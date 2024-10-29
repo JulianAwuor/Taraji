@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    height: 20vh;
+}
+
+.heading1{
+    font-family: "sans-serif";
+    font-size: 50px;
+    margin-bottom: 0;
+    position: sticky;
+    z-index: 999;
+    text-align: center;
+    top: 0;
+
+}
+.p1{
+    margin-top: 0;
+    margin-bottom: 100px;
+    position: sticky;
+    z-index: 999;
+    text-align: center;
+}
+#navbar{
+    position: fixed;
+    margin-right: 50px;
+    padding-top: 20px;
+    right: 0;
+    top: 0;
+    bottom: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    z-index: 1000;
+
+
+}
+#navbar-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+#navbar-links a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}

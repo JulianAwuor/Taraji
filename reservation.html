@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/reservation.css">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <style>
+        body{
+          background-image: url("image/jason-leung-poI7DelFiVA-unsplash.jpg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="sticky">
+   <h1 class="heading1 text-white">TARAJI</h1>
+<br>
+   <P class="p1 text-white">"Delicious Food, Exceptional Service"</P> <br> <br>
+
+
+
+    <div id="navbar">
+
+        <div id="navbar-links">
+
+          <a href="index.html">Home</a> <br>
+          <a href="menu.html">Menu</a> <br>
+          <a href="reservation.html">Reservation</a> <br>
+
+        </div>
+        </div>
+     </div>
+
+ <div class="container my-5 text-white">
+        <h1 class="text-center mb-4 text-white">Contact Us</h1>
+        <div class="row">
+            <!-- Contact Information -->
+            <div class="col-md-4">
+                <h4>Contact Details</h4>
+                <p><strong>Phone:</strong> +123 456 7890</p>
+                <p><strong>Email:</strong> info@example.com</p>
+                <p><strong>Address:</strong> 123 Main St, Nairobi</p>
+            </div>
+        </div>
+     <br><br>
+
+         <div class="col-md-8">
+                <h4>Make a Reservation</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">Reservation Date</label>
+                        <input type="date" class="form-control" id="date">
+                    </div>
+                    <div class="mb-3">
+                        <label for="time" class="form-label">Reservation Time</label>
+                        <input type="time" class="form-control" id="time">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Additional Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Any special requests?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Reservation</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
